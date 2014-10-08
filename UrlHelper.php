@@ -18,6 +18,7 @@ class UrlHelper extends Helper
 	{
 		$url = trim($this->request->url, '/');
 		$result = str_replace('/', '-', $url);
+		$result = (empty($result)) ? 'home' : $result;
 		return $result;
 	}
 
