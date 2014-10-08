@@ -26,7 +26,7 @@ false
 true
 true
 
-pages-teste
+home
 http://127.0.0.1/scripts/plugins/teste/seila
 http://127.0.0.1/scripts/plugins/js/seila.js?nc=DM7545
 http://127.0.0.1/scripts/plugins/js/seila.js?v=15.5
