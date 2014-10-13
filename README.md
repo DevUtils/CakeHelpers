@@ -6,7 +6,7 @@ CakePHP Custom helpers
 ## UrlHelper
 Pagina: http://127.0.0.1/scripts/plugins/
 
-```
+```php
 <?php
 debug($this->Url->here());                            // 'scripts/plugins'
 debug($this->Url->here('scripts/seila'));             // false
@@ -21,7 +21,7 @@ debug($this->Url->version('/js/seila.js', 15.5));     // http://127.0.0.1/script
 ```
 
 ##CpfHelper
-```
+```php
 <?php
 debug($this->Cpf->valid('271.837.313-08')); // true
 debug($this->Cpf->valid('271.837.313-14')); // false
@@ -29,7 +29,7 @@ debug($this->Cpf->valid('271.837.313-14')); // false
 ```
 
 ##CnpjHelper
-```
+```php
 <?php
 debug($this->Cpf->valid('54.456.577/0001-31')); // true
 debug($this->Cpf->valid('54.456.577/5454-45')); // false
@@ -37,7 +37,7 @@ debug($this->Cpf->valid('54.456.577/5454-45')); // false
 ```
 
 ##MaskHelper
-```
+```php
 <?php
 debug($this->Mask->mask('04045004', '##.###-###')); // 04.045-004
 ?>
